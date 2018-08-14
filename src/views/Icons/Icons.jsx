@@ -18,6 +18,7 @@ import Table from "components/Table/Table.jsx";
 
 function Icons(props) {
   const { classes } = props;
+  let showRulesTable = false;
   return (
     <GridContainer>
       <GridItem xs={12} sm={12} md={12}>
@@ -25,7 +26,7 @@ function Icons(props) {
           <CardHeader color="primary">
             <h4 className={classes.cardTitleWhite}>Group & Rules</h4>
             <p className={classes.cardCategoryWhite}>
-              Hezi, Do we need a subtitle for this table?
+              Choose a group to edit its rules
             </p>
           </CardHeader>
           <CardBody>
@@ -43,6 +44,37 @@ function Icons(props) {
           </CardBody>
           <CardFooter>
             <Button color="primary">Create a new group</Button>
+          </CardFooter>
+        </Card>
+      </GridItem>
+      <GridItem xs={12} sm={12} md={12}>
+        <Card>
+          <CardHeader color="primary">
+            <h4 className={classes.cardTitleWhite}>Rules for IT Group</h4>
+            <p className={classes.cardCategoryWhite}>
+              Choose a sector to edit its balance
+            </p>
+          </CardHeader>
+          <CardBody>
+            <Table
+              tableHeaderColor="primary"
+              tableHead={[
+                "Sector",
+                "MCC",
+                "Balance",
+                "Balance Type",
+                "Time Period"
+              ]}
+              tableData={[
+                ["Fast Food Restaurants", "5814", "40", "Renewal", "Daily"],
+                ["Fuel", "5983", "450", "Diposable", "Monthly"],
+                ["Fashion", "5137", "1000", "Disposable", ""],
+                ["Cellular", "5483", "100", "Renewal", "Monthly"]
+              ]}
+            />
+          </CardBody>
+          <CardFooter>
+            <Button color="primary">Create a new rule</Button>
           </CardFooter>
         </Card>
       </GridItem>

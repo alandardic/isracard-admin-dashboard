@@ -181,7 +181,7 @@ function TypographyPage(props) {
             <CardHeader color="primary">
               <h4 className={classes.cardTitleWhite}>Employees</h4>
               <p className={classes.cardCategoryWhite}>
-                Hezi, Do we need a subtitle for this table?
+                Intel Israel Employees
               </p>
             </CardHeader>
             <CardBody>
@@ -204,7 +204,7 @@ function TypographyPage(props) {
                     "Active",
                     "389"
                   ],
-                  ["304043086", "Sage Rodriguez", "IT", "Baileux", "442"],
+                  ["304043086", "Sage Rodriguez", "IT", "Inactive", "442"],
                   [
                     "026500264",
                     "Philip Chaney",
@@ -213,13 +213,7 @@ function TypographyPage(props) {
                     "387"
                   ],
                   ["224825166", "Doris Greene", "Management", "Active", "542"],
-                  [
-                    "051687713",
-                    "Mason Porter",
-                    "North area",
-                    "In Active",
-                    "315"
-                  ]
+                  ["051687713", "Mason Porter", "North area", "Inactive", "315"]
                 ]}
               />
             </CardBody>
@@ -236,7 +230,7 @@ function TypographyPage(props) {
             <CardHeader color="primary">
               <h4 className={classes.cardTitleWhite}>Employees</h4>
               <p className={classes.cardCategoryWhite}>
-                Here is a subtitle for this table
+                Intel Israel Employees
               </p>
             </CardHeader>
             <CardBody>

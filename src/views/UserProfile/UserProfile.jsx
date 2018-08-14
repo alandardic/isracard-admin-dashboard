@@ -43,7 +43,7 @@ function UserProfile(props) {
           <Card>
             <CardHeader color="primary">
               <h4 className={classes.cardTitleWhite}>Edit Profile</h4>
-              <p className={classes.cardCategoryWhite}>Complete your profile</p>
+              <p className={classes.cardCategoryWhite}>Edit your profile</p>
             </CardHeader>
             <CardBody>
               <GridContainer>
