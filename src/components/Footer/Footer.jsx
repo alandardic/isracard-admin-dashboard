@@ -41,7 +41,7 @@ function Footer({ ...props }) {
           <span>
             &copy; {1900 + new Date().getYear()}{" "}
             <a
-              href="www.alandardic.com"
+              href="https://www.alandardic.com"
               className={classes.a}
               target="_blank"
               rel="nofollow"

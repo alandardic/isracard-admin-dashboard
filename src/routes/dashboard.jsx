@@ -34,28 +34,28 @@ const dashboardRoutes = [
     component: UserProfile
   },
   {
-    path: "/table",
+    path: "/transactions",
     sidebarName: "Transactions",
     navbarName: "Transactions",
     icon: LibraryBooks,
     component: TableList
   },
   {
-    path: "/typography",
+    path: "/employees",
     sidebarName: "Employees",
     navbarName: "Employees",
     icon: "content_paste",
     component: Typography
   },
   {
-    path: "/icons",
+    path: "/groups",
     sidebarName: "Groups & Rules",
     navbarName: "Groups & Rules",
     icon: BubbleChart,
     component: Icons
   },
   {
-    path: "/maps",
+    path: "/reports",
     sidebarName: "Reports",
     navbarName: "Reports",
     icon: ChartLine,
@@ -69,7 +69,7 @@ const dashboardRoutes = [
     component: NotificationsPage
   },
   {
-    path: "/upgrade-to-pro",
+    path: "/invite",
     sidebarName: "Invite members",
     navbarName: "Invite members",
     icon: Unarchive,
